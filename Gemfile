@@ -38,6 +38,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'minitest'
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard'
+  gem 'guard-minitest'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
